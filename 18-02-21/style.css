@@ -1,0 +1,89 @@
+html{
+
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box; /*  Padrão */
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+body{
+
+        background-color: black;
+
+    }
+
+
+label{
+
+        color: white;
+
+    }
+
+.divclass{
+
+        display: flex; /* alinha tudo que tiver dentro da div, ao centro da div */
+        align-items: center; /* alinha eles verticalmente? e horizontalmente dependendo */
+        justify-content: center; /* alinha eles verticalmente? e horizontalmente se usado o align items tbm*/
+        flex-direction: column; /* o quarto item escolhe a ordem nos quais os itens serao mostrados tipo se vao ser alinahdos 
+        horizontalmente ou verticamente (tudo numa linha ou tudo numa coluna */
+
+
+        }
+
+.labelclass{
+
+        font-weight: bold;
+        margin-right: 3px;
+        
+
+            }
+
+img{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 350px;
+
+    }
+
+.divmargin{
+
+        margin-bottom: 10px;
+
+        }
+
+input[type="text"], input[type="password"]{
+
+        width: 190px;
+        height: 23px;
+        border-radius: 15px;
+        border: 0;
+        padding-left: 13px;
+
+    }
+
+button{
+
+        background-color: dimgray;
+        color: white; 
+        width: 190px;
+        height: 30px;
+        font-weight: 700;
+        border: 2px solid white;
+        border-radius: 15px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+
+    }
+
+button:hover{
+
+        background-color: white;
+        color: black;
+        border: 0;
+
+            }
+
