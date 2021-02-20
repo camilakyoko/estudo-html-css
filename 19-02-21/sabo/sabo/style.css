@@ -1,0 +1,144 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+section{
+    min-height: 95vh;
+    min-width: 100vw;
+}
+
+.home{
+    background-image: url(./img/sabo.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;      
+}
+
+p{
+    padding-right: 100px;
+}
+
+h1{
+    margin: 0;
+    float: right;
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    width: 50%;
+    text-shadow: 2px 1px 7px rgba(0, 0, 0, 0.2);
+}
+
+.infancia{
+    background-color: rgb(39, 85, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 35vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.infancia img{
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+h2{
+    font-size: 36px;
+    color: white;
+}
+
+.infancia p{
+    color: white;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.revolucionario{
+    background-color: rgb(246, 143, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 35vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.revolucionario img{
+    width: 400px;
+}
+
+.meramera{
+    
+    background-color: rgb(39, 85, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 35vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.meramera img{
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.vote{
+    
+    background-color: rgb(246, 143, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 20vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+button{
+    height: 35px;
+    width: 240px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sabo{
+    background-color: rgb(39, 85, 236);
+    border: 2px solid white;
+}
+
+.sabo:hover{
+    background-color: white;
+    border: 0;
+    color: rgb(39, 85, 236);
+}
+
+.ace{
+    background-color: rgb(216, 43, 37);
+    border: 2px solid white;
+}
+
+.ace:hover{
+    background-color: white;
+    border: 0;
+    color: rgb(216, 43, 37);
+}
