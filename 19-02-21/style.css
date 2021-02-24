@@ -3,6 +3,7 @@ body{
         box-sizing: border-box;
         padding: 0;
         font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
     }
 
 .divback{
@@ -10,8 +11,8 @@ body{
         width: 100vw;
         height: 95vh;
         align-items: center;
-        justify-content: center;
         display: flex;
+        justify-content: center;
 
         }
 
@@ -25,5 +26,100 @@ h1{
 
 }
 
+h2{
 
+    font-size: 36px;
+    color: white;
 
+    }
+
+.divazul{
+        background-color: steelblue;
+        color: white;
+        display: flex;
+        padding-top: 25px;
+        padding-bottom: 30px;
+        align-items: center;
+        display: flex;
+
+        }
+
+img{
+        width: 400px;
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+
+p{
+        font-size: 18px;
+        color: white;
+}
+
+.divazul div{
+        padding-right: 100px;
+            }
+
+.divlaranja{
+        background-color: rgb(235, 134, 33);
+        display: flex;
+        padding-top: 25px;
+        padding-bottom: 30px;
+        align-items: center;
+        display: flex;
+        flex-direction: row; /* deixa um do lado do outro, mas tem q ter display flex antes*/
+        justify-content: center;
+        padding-right: 40px;
+            }
+
+.divlaranja div{
+        padding-left: 100px;
+                }
+
+button{
+        color: white;
+        font-size: 16px;
+        font-weight:bold ;
+        border-radius: 20px;
+        width: 250px;
+        height: 40px;
+        border: 2px solid white;
+        cursor: pointer;
+        text-transform: uppercase;
+        
+
+}
+
+.botaoazul{
+        background-color: steelblue;
+}
+
+.botaovermelho{
+        background-color: crimson;
+}
+
+.botaoazul:hover{
+        background-color: white;
+        color: steelblue;
+        border: 0;
+
+                }
+
+.botaovermelho:hover{
+        background-color: white;
+        color: crimson;
+        border: 0;
+                    }
+
+.centralizado{
+        align-items: center;
+        display: flex;
+        flex-direction: column; /* deixa um do lado do outro, mas tem q ter display flex antes*/
+        justify-content: center;
+
+            }
+
+#botoes{
+        padding-left: 0;
+
+        }
