@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#home{
+    background-image: url("img/bg.png");
+    width: 100vw; /* o vw é tela inteira */
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+ 
+
+}
+
+h1{
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 72px;
+    font-weight: 400;
+
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    color: #F47B00;
+    background-color: white;
+    width: 190px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: transparent;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    border-style: solid;
+
+}
+
+header div{
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+header{
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex; /* vai colocar um do lado do outro*/
+
+
+}
+
+.nav_links li{
+    margin: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+
+
+}
+
+.homeb{
+    background-color: #F47B00;
+    color: white;
+    width: 120px;
+    height: 38px;
+    font-weight: 500;
+}
+
+.nav_links li a:visited{
+    color: white;
+
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+
+nav ul{
+    align-items: center;
+    justify-content: center;
+}
