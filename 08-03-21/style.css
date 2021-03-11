@@ -7,7 +7,6 @@ body{
 
 #home{
     background-image: url("img/bg.png");
-    width: 100vw; /* o vw é tela inteira */
     height: 95vh;
     display: flex;
     flex-direction: column;
@@ -23,6 +22,8 @@ h1{
     font-family: 'Akaya Telivigala', cursive;
     font-size: 72px;
     font-weight: 400;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -59,13 +60,15 @@ header div{
     justify-content: space-between;
     padding-left: 120px;
     padding-right: 120px;
+    height: 100%;
 
 }
 
 header{
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.541);
     position: fixed;
     width: 100vw;
+    height: 100px;
 }
 
 ul{
@@ -110,4 +113,40 @@ ul li a{
 nav ul{
     align-items: center;
     justify-content: center;
+}
+
+#sobre{
+    background-image: url(img/sobre.png);
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+    font-family: 'Roboto', sans-serif;
+    outline-width: 4px;
+    outline-color: #F47B00;
+    outline-style: solid;
+    outline-offset: -30px;
+
+}
+
+#sobre h2{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+#sobre div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 445px;
+    text-align: center;
+}
+
+#sobre img{
+    margin: 80px;
 }
